@@ -21,7 +21,7 @@ header     { background-color: #333;
 header h1 {
     font-size: 36px;
     font-weight: bold;
-    animation: rainbowAnimation 5s infinite linear;
+    animation: rainbowAnimation 3s infinite linear;
   }
   
   @keyframes rainbowAnimation {
