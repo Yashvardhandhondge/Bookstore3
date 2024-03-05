@@ -61,7 +61,9 @@ nav ul {
 }
 
 
-
+.contact ul li{
+    padding:"5px";
+}
 nav ul li {
 display: inline-block; 
 
