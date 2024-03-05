@@ -61,9 +61,6 @@ nav ul {
 }
 
 
-.contact ul li{
-    padding:5px;
-}
 nav ul li {
 display: inline-block; 
 
@@ -90,7 +87,9 @@ background-color: #724f4f;
 }
 
 
-
+.contact ul {
+    padding:10px;
+}
 .dropdown-content {
     display: none;
     position: absolute;
