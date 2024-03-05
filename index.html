@@ -1,0 +1,320 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookstore</title>
+    <link rel="stylesheet" href="Style.css">
+    
+</head>
+<body>
+    <header>
+     <h1>Welcome To Our Bookstore
+
+     </h1>
+    </header>
+
+
+
+
+    <nav>
+        
+            <marquee  direction="left"> "Discover Your Reflection: Books are the mirrors of the soul. Explore our collection and find your reflection. Purchase from us today!"</marquee>
+      
+        <ul>
+            <nav>
+                <ul>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn">Home</a>
+                        <div class="dropdown-content">
+                            <a href="#gandhi">New Arrivals</a>
+                            <a href="#shardya">Best Sellers</a>
+                            <a href="#ramya">Editor's Picks</a>
+                            <a href="#surya">Featured Authors(Martin Amis)</a>
+                            <a href="#Janu"> Staff Recommendations </a>
+                            
+                           
+                        </div>
+                    </li>
+                   
+                </ul>
+            </nav>
+        </header>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Stores</a>
+                <div class="dropdown-content">
+                    <a href="offline-store.html">Visit Our Offline Store</a>
+                    <a href="#">Visit Our Online Store</a>
+</li>
+
+ <li class="dropdown">              
+<a href="#" class ="dropbtn">Books</a>
+                   <div class="dropdown-content">
+ <a href="#gandhi">The story of My Experiments</a>
+                    <a href="#gandhi">Adolf Hitler</a>
+                    <a href="#shardya">Killing Pablo</a>
+<a href ="#shardya">On My terms</a>
+<a href ="#ramya">City on Fire</a>
+<a href ="#ramya">Great Circle</a>
+<a href="surya">House Of Meetings</a>
+<a href="surya">Yellow Dog</a>
+<a href="Janu"> Alive</a>
+<a href="Book.html">Other Books</a>
+
+            </li>
+            <li class = "dropdown">
+<a href="#" class="dropbtn">About us</a>
+<div class="dropdown-content">
+<p>"we are the best book sellers in Maharashtra "</p>
+</li>
+       <li class="dropdown">
+<a href="#"class="dropbtn">Contact</a>
+<div class="dropdown-content">
+ <h2>Contact Us</h2>
+        <p>For inquiries, please contact:</p>
+        <ul>
+            <li>123-456-7890</li><br>
+            <li>987-654-3210</li>
+        </ul>
+</li>
+     
+        </ul>
+    </nav>
+
+
+        <section id="gandhi">
+            <h2>New Arrivals</h2>
+            <div class="book-container">
+                <div class="book" onclick="showModal('book1-details')">
+                    <img src="the-story-of-my-experiments-with-truth-mahatma-gandhi-s-autobiography-2.jpg" alt="The Story Of My Experiments" width="100px">
+                    <h3>The Story Of My Experiments</h3>
+                    <p>Mahatma Gandhi</p>
+                    <p>200rs</p>
+                </div>
+                <div class="book" onclick="showModal('book2-details')">
+    <img src="Adolf hitler.jpg" alt="Adolf Hitler" width="100"> <!-- Adjust the width as needed -->
+    <h3>Adolf Hitler</h3>
+    <p>Mein Kampf</p>
+    <p>400rs</p>
+</div>
+
+                
+            </div>
+        </section>
+
+        <section id="shardya">
+            <h2>Best Sellers</h2>
+            <div class="book-container">
+                <div class="book" onclick="showModal('book3-details')">
+                    <img src="Killing pablo.jpg" alt="Killing Pablo" width="100px">
+                    <h3>Killing Pablo</h3>
+                    <p>Mark Bowden</p>
+                    <p>340rs</p>
+                </div>
+                <div class="book" onclick="showModal('book4-details')">
+                    <img src="sharad pawar.jpeg" alt="On My Terms" width="100px">
+                    <h3>On My Terms</h3>
+                    <p>Sharad Pawar</p>
+                    <p>13rs</p>
+                </div>
+               
+            </div>
+        </section>
+    
+
+  
+
+    <section id="ramya">
+        <h2>Editor's Picks</h2>
+        <div class="book-container">
+            <div class="book" onclick="showModal('editors-pick1-details')">
+                <img src="shopping.webp" alt="City on Fire" width="100px">
+                <h3>City On Fire</h3>
+                <p>Don Winslow</p>
+                <p>423 rs</p>
+            </div>
+            <div class="book-container">
+               
+                <div class="book small-book" onclick="showModal('editors-pick2-details')">
+                    <img src="Greatcircle.jpg" alt="Great Circle" height="50%">
+                    <h3>Great Circle</h3>
+                    <p>Maggie Shipstead</p>
+                    <p>583 rs</p>
+                </div>
+            </div>
+            <style>
+            .small-book {
+                width: 150px; 
+            }
+        </style>
+            
+            </div>
+        </div>
+        <section id="surya">
+            <h2>Featured Authors On times</h2>
+            <div class="book-container">
+                <div class="book" onclick="showModal('book11-details')">
+                    <img src="18826.jpg" alt="The Story Of My Experiments" width="100px">
+                    <h3>House Of Meetings</h3>
+                    <p>Martin Amis</p>
+                    <p>1260rs</p>
+                </div>
+                <div class="book" onclick="showModal('book12-details')">
+    <img src="YellowDog.jpg" alt="Adolf Hitler" width="100"> <!-- Adjust the width as needed -->
+    <h3>Yellow Dog</h3>
+    <p>Martin Amis</p>
+    <p>499rs</p>
+</div>
+
+                
+            </div>
+        </section>
+        <section id="Janu">
+            <h2> Recommendation </h2>
+            <div class="book-container">
+                <div class="book" onclick="showModal('book13-details')">
+                    <img src="Alive.jpg".jpg" alt="The Story Of My Experiments" width="100px">
+                    <h3>Alive</h3>
+                    <p>Piers Paul Read</p>
+                    <p>708rs</p>
+                </div>
+                
+
+                
+            </div>
+        </section>
+    
+            
+            <div id="book13-details" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="hideModal('book13-details')">&times;</span>
+                    <h2>Alive</h2>
+                    <p>Alive tells the story of an Uruguayan rugby team (who were alumni of Stella Maris College), and their friends and family who were involved in the airplane crash of Uruguayan Air Force Flight 571. The plane crashed into the Andes mountains on Friday 13 October 1972.</p>
+                    <p>Number of Purchases: 4360</p>
+                    <button> to Cart</button>
+                    <button>Buy Online</button>
+                    <button>Buy from Nearby Store</button>
+                </div>
+            </div>
+    <div id="book1-details" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="hideModal('book1-details')">&times;</span>
+            <h2>The Story Of My Experiments</h2>
+            <p>The Story of My Experiments with Truth (, lit. 'Experiments of Truth or Autobiography') is the autobiography of Mahatma Gandhi, covering his life from early childhood through to 1921. It was written in weekly installments and published in his journal Navjivan from 1925 to 1929.</p>
+            <p>Number of Purchases: 100</p>
+            <button>Add to Cart</button>
+            <button>Buy Online</button>
+            <button>Buy from Nearby Store</button>
+        </div>
+    </div>
+
+
+    <div id="book2-details" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="hideModal('book2-details')">&times;</span>
+            <h2>Adolf Hitler</h2>
+            <p>describes the process by which Hitler became antisemitic and outlines his political ideology and future plans for Germany.</p>
+            <p>Number of Purchases: 5000</p>
+            <button>Add to Cart</button>
+            <button>Buy Online</button>
+            <button>Buy from Nearby Store</button>
+        </div>
+    </div>
+
+  
+    <div id="book3-details" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="hideModal('book3-details')">&times;</span>
+            <h2>Killing Pablo</h2>
+            <p>Killing Pablo is the inside story of the brutal rise and violent fall of Colombian cocaine cartel kingpin Pablo Escobar, whose criminal empire held a nation of thirty million hostage - a reign of terror that would end only with his death.</p>
+            <p>Number of Purchases: 150</p>
+            <button>Add to Cart</button>
+            <button>Buy Online</button>
+            <button>Buy from Nearby Store</button>
+        </div>
+    </div>
+
+ 
+    <div id="book4-details" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="hideModal('book4-details')">&times;</span>
+            <h2>On My Terms</h2>
+            <p>Sharad Pawars On My Terms: From the Grassroots to the Corridors of Power</p>
+            <p>Number of Purchases: 200</p>
+            <button>Add to Cart</button>
+            <button>Buy Online</button>
+            <button>Buy from Nearby Store</button>
+        </div>
+    </div>
+    </section>
+    
+    
+<div id="editors-pick1-details" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="hideModal('editors-pick1-details')">&times;</span>
+        <h2>City On Fire</h2>
+        <p>The plot concerns a group of people loosely connected to a seemingly random shooting in Central Park. It's New York City in the lawless 1970s, a setting whose phantasmagoric elements are richly exploited by Hallberg, and the book culminates in the blackout of 1977, in which the city was consumed by looting and arson.</p>
+        <p>Number of Purchases: 689</p>
+        <button>Add to Cart</button>
+        <button>Buy Online</button>
+        <button>Buy from Nearby Store</button>
+    </div>
+</div>
+
+
+<div id="editors-pick2-details" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="hideModal('editors-pick2-details')">&times;</span>
+        <h2>Great Circle</h2>
+        <p>The novel consists of two parallel narratives about two fictional women. One is about the disappeared 20th-century aviator Marian Graves, while the other is about a 21st-century actress, Hadley Baxter, who is cast in the role of Marian for a film about her final flight.</p>
+        <p>Number of Purchases: 984</p>
+        <button>Add to Cart</button>
+        <button>Buy Online</button>
+        <button>Buy from Nearby Store</button>
+    </div>
+</div>
+<div id="book11-details" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="hideModal('book11-details')">&times;</span>
+        <h2>House Of mettings</h2>
+        <p>House of Meetings is comprised of a series of letters written by an unnamed Gulag survivor, who writes his recollections of the katorga to his estranged stepdaughter; much of it has to deal with the hardship of life in the Arctic, and the complex relationship between his younger half-brother.</p>
+        <p>Number of Purchases: 458</p>
+        <button>Add to Cart</button>
+        <button>Buy Online</button>
+        <button>Buy from Nearby Store</button>
+    </div>
+</div>
+<div id="book12-details" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="hideModal('book12-details')">&times;</span>
+        <h2>Yellow Dog</h2>
+        <p>Yellow Dog is a strange and deeply unpleasant novel where father-daughter incest is the central theme but also features tabloid journalism, pornography and the Royal Family.</p>
+        <p>Number of Purchases: 396</p>
+        <button>Add to Cart</button>
+        <button>Buy Online</button>
+        <button>Buy from Nearby Store</button>
+    </div>
+</div>
+
+
+ 
+    
+
+    <script>
+       
+        function showModal(modalId) {
+            var modal = document.getElementById(modalId);
+            modal.style.display = "block";
+        }
+
+   
+        function hideModal(modalId) {
+            var modal = document.getElementById(modalId);
+            modal.style.display = "none";
+        }
+    </script>
+
+
+</body>
+</html>
